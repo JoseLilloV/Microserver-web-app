@@ -1,0 +1,14 @@
+spring:
+  application:
+    name: ReportePlanilla-service
+  cloud:
+    config:
+      enabled: true
+      uri: http://localhost:8081
+  datasource:
+    url: jdbc:postgresql://localhost:5432/as2_reporte
+    username: postgres
+    password: A1b2c3Z0
+  jpa:
+    hibernate:
+      ddl-auto: update
